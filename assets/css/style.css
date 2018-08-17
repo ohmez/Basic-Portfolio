@@ -1,9 +1,22 @@
 header {
     background-color: #4aaaa5;
-    
-};
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    overflow: hidden;
+    background-color: white;
 
-nav {
+}
+li {
     float: right;
-    position: relative;
-};
+    border-right: 1px solid #bbb;
+}
+li a {
+    display: block;
+    color: rgb(170, 168, 168);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
