@@ -1,18 +1,30 @@
-header {
-    background-color: #4aaaa5;
+body {
+    width: 100%;
+    background-image: url("/images/oriental.png");
 }
+header {
+    background-color: #ffffff;
+    display: inline-flex;
+    width: fit-content;
+    border: 5px #cccccc;
+}
+#Menu {
+    margin-left: 80%;
+}
+/* list styling to make it clean and keeping overlow out */ 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 10px 0;
     overflow: hidden;
     background-color: white;
-
 }
+/* makes list items horizontal and has lines for menu bar / which i now broke somehow.... */
 li {
     float: right;
     border-right: 1px solid #bbb;
 }
+/* makes more than words clickable on the list items with links*/
 li a {
     display: block;
     color: rgb(170, 168, 168);
