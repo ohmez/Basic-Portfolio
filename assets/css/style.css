@@ -1,4 +1,4 @@
-body {
+/* body {
     width: 100%;
     background-image: url("/images/oriental.png");
     margin: auto;
@@ -10,26 +10,82 @@ header {
     border: 5px #cccccc;
     margin: auto;
 }
-
-/* list styling to make it clean and keeping overlow out */ 
+*/
+body {
+    background-image: url("../../../Basic-Portfolio/images/oriental.png")
+}
+/*html, body {
+    /* attempting to make the site scale to resized windows, no luck with this alone
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}*/
+header {
+    background: #ffffff;
+    border: 2px #cccccc;
+    display: inline-flex;
+    overflow: hidden;
+    width: 100%;  
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin: auto;
+}
 ul {
     list-style-type: none;
     margin: auto;
-    padding: 10px 0;
     overflow: hidden;
     background-color: white;
-    right: 1px;
 }
-/* makes list items horizontal and has lines for menu bar / which i now broke somehow.... */
 li {
     float: right;
     border-right: 1px solid #bbb;
     display: block;
+    padding: 10px;
 }
-/* makes more than words clickable on the list items with links*/
 li a {
     color: rgb(170, 168, 168);
     text-align: center;
-    padding: 14px 16px;
+    padding: 1%;
     text-decoration: none;
+    display: block;
+}
+#Menu {
+    position: absolute;
+    /*right: 15%;*/
+    margin-left: 75%;
+    top: 1%;
+}
+#Name {
+    display: block;
+    background: #4aaaa5;
+    padding: 1%;
+    text-align: center;
+    margin-left: 15%;
+    color: #ffffff;
+}
+#menubar {
+    margin-top: 0;
+}
+h2 {
+    font-size: 30px;
+}
+#mainContent {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background: white;
+    padding: 2%;
+}
+img#me {
+    width: 15%;
+    z-index: 1;
+}
+article {
+    display: block;
+   
+}
+p {
+    display: inline;
 }
