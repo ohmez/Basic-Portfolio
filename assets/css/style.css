@@ -40,7 +40,7 @@ li a {
 #Menu {
     position: absolute;
     /*right: 15%;*/
-    margin-left: 70%;
+    margin-left: 78%;
     top: 1.5%;
 }
 
@@ -101,7 +101,19 @@ p {
     font-size: 1.114em;
 }
 input {
-    width: 70%;
+    position: inherit;
+    width: 99%;
     margin: 1%;
     margin-left: 0;
+}
+input#large {
+    height: 120px;
+}
+input#submit {
+    clear: both;
+    padding: 2px 30px;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: 1.3em;
+    width: fit-content;
 }
