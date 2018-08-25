@@ -155,5 +155,21 @@ div.banner {
     left: 5%;
     text-align: center;
 }
-.mainContent2 {
+
+/* start scaling code */
+@media(max-width:1030px) {
+
+    ul {
+        list-style-type: none;
+        margin: auto;
+        overflow: hidden;
+        background-color: white;
+        display: inline-flex;
+    }
+    header {
+        width: 100%;
+        padding-right: 50px;
+        display: inline-flex;
+        overflow: hidden;
+    }
 }
