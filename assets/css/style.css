@@ -25,12 +25,13 @@ ul {
     margin: auto;
     overflow: hidden;
     background-color: white;
+    display: inline-flex;
 }
 li {
     float: right;
     border-right: 1px solid #bbb;
     display: block;
-    padding: 10px;
+    padding: 3%;
 }
 li a {
     color: rgb(170, 168, 168);
@@ -157,19 +158,50 @@ div.banner {
 }
 
 /* start scaling code */
-@media(max-width:1030px) {
+@media(max-width:890px) {
 
-    ul {
-        list-style-type: none;
-        margin: auto;
-        overflow: hidden;
-        background-color: white;
-        display: inline-flex;
+    #Menu {
+        right: 2%;
     }
     header {
         width: 100%;
-        padding-right: 50px;
-        display: inline-flex;
-        overflow: hidden;
+        
+    }
+    div#Name {
+        margin-left: 2%;
+    }
+    #mainContent {
+        margin: 2%;
+
     }
 }
+@media(max-width:500px) {
+
+    header {
+        font-size: .9em;
+    }
+    div#Menu {
+        font-size: .9em;
+        top: 1%;
+    }
+    div#Name {
+        font-size: .9em;
+    }
+}
+@media(max-width:410px) {
+
+    header {
+        font-size: .8em;
+    }
+    div#Menu {
+        font-size: .8em;
+        clear: both;
+        top: 1%;
+    }
+    div#Name {
+        font-size: .8em;
+        clear: both;
+    }
+}
+
+
