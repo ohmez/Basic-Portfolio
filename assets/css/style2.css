@@ -157,53 +157,7 @@ div.banner {
     text-align: center;
 }
 
-/* start scaling code */
+@media screen (max-width:980px) {
 
 
-@media(max-width:890px) {
-
-    #Menu {
-        right: 2%;
-    }
-    header {
-        width: 100%;
-        
-    }
-    div#Name {
-        margin-left: 2%;
-    }
-    #mainContent {
-        margin: 2%;
-
-    }
 }
-@media(max-width:500px) {
-
-    header {
-        font-size: .9em;
-    }
-    div#Menu {
-        font-size: .9em;
-        top: 1%;
-    }
-    div#Name {
-        font-size: .9em;
-    }
-}
-@media(max-width:410px) {
-
-    header {
-        font-size: .8em;
-    }
-    div#Menu {
-        font-size: .8em;
-        clear: both;
-        top: 1%;
-    }
-    div#Name {
-        font-size: .8em;
-        clear: both;
-    }
-}
-
-
