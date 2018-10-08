@@ -75,7 +75,7 @@ div#Name {
     color: #ffffff;
 }
 #mainContent {
-    margin-top: 5%;
+    margin-top: 4.4%;
     margin-left: 10%;
     margin-right: 10%;
     background: #ffffff;
@@ -84,6 +84,7 @@ div#Name {
     font-family: 'sunflower', sans-serif;
     min-height: 560px;
     position: relative;
+    margin-bottom: 6%;
 }
 img#me {
     width: 15%;
@@ -131,8 +132,8 @@ input#submit {
     width: fit-content;
 }
 img.port {
-    width: 12vw;
-    height: auto;
+    width: 30vw;
+    height: 30vh;
     border: .4vw solid gray;
     margin: auto;
     position: relative;
@@ -143,6 +144,7 @@ div.gallery {
     display: inline;
     position: relative;
     margin: auto;
+    margin-left: 30px;
     
 }
 div.banner {
@@ -150,7 +152,7 @@ div.banner {
     background: #4aaaa5;
     color: #ffffff;
     margin: auto;
-    width: 12vw;
+    width: 29.4vw;
     padding: 1vw .2vw;
     bottom: 1%;
     left: .1vw;
@@ -195,12 +197,8 @@ div.row {
         display: block;
         padding: 00px 10px 0px;
     }
-    img.port {
-        width: 300px;
-        height: 200px;
-    }
     div.banner {
-        width: 300px;
+        width: 100%;
         padding: 1vw 0vw;
         bottom: 1%;
     }
