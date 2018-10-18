@@ -23,7 +23,6 @@ header {
 ul {
     list-style-type: none;
     margin: auto;
-    overflow: hidden;
     background-color: white;
     display: inline-flex;
 }
