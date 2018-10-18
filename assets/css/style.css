@@ -165,49 +165,6 @@ div.row {
 }
 
 /* start scaling code */
-@media(max-width:980px) {
-    #mainContent {
-        margin-left: 2%;
-        margin-top: 2%;
-        margin-right: 20%;
-        min-height: 1vw;
-    }
-    div#Name { 
-        margin-left: 2%;
-    }
-    li {
-      
-        box-sizing: border-box;
-        margin: auto;
-    }
-    #Menu {
-        right: 2%;
-        margin: auto;
-        margin-right: 10%;
-        width: fit-content;
-    }
-    ul {
-        list-style-type: none;
-        margin: auto;
-        overflow: hidden;
-        background-color: white;
-        display: inline-flex;
-    }
-    li a {
-        display: block;
-        padding: 00px 10px 0px;
-    }
-    div.banner {
-        width: 100%;
-        padding: 1vw 0vw;
-        bottom: 1%;
-    }
-    div.placehold {
-        width: 300px;
-    }
-
-}
-
 @media(max-width:890px) {
 
     #Menu {
