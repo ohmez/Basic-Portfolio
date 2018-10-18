@@ -165,66 +165,9 @@ div.row {
 
 /* start scaling code */
 @media(max-width:890px) {
-
-    #Menu {
-        right: 2%;
-    }
-    header {
-        width: 100%;
-        
-    }
-    div#Name {
-        margin-left: 2%;
-    }
     #mainContent {
         margin: 2%;
-
     }
 }
-@media(max-width:640px) {
-        header {
-            display: block;
-            max-height: none;
-        }
-        div#Name {
-            display: block;
-            margin: 0;
-        }
-        div#Menu   {
-            display: block;
-            margin: 0;
-            position: relative;
-            text-align: center;
-            left: 30%;
-        }
-}
-@media(max-width:500px) {
-
-    header {
-        font-size: .9em;
-    }
-    div#Menu {
-        font-size: .9em;
-        top: 1%;
-    }
-    div#Name {
-        font-size: .9em;
-    }
-}
-@media(max-width:410px) {
-
-    header {
-        font-size: .8em;
-    }
-    div#Menu {
-        font-size: .8em;
-        clear: both;
-        top: 1%;
-    }
-    div#Name {
-        font-size: .8em;
-        clear: both;
-    }
-}
-
+       
 
