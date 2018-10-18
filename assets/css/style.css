@@ -164,9 +164,12 @@ div.row {
 }
 
 /* start scaling code */
-@media(max-width:890px) {
+@media(max-width:655px) {
     #mainContent {
         margin: 2%;
+    }
+    header {
+    display: block;
     }
 }
        
