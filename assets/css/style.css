@@ -11,9 +11,9 @@ body {
 header {
     background: #ffffff;
     border: 2px solid #cccccc;
-    display: inline-flex;
+    display: flex;
     overflow: hidden;
-    width: 100%;  
+    width: 99%;  
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin: auto;
     border-top-width: 0;
