@@ -174,6 +174,9 @@ div.row {
     div#Name {
     display: block; 
     margin-left:0;
-}
+    }
+    #Menu {
+    text-align: center;
+    }
        
 
