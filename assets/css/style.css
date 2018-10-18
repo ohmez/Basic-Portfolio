@@ -171,6 +171,9 @@ div.row {
     header {
     display: block;
     }
+    div#Name {
+    display: block; 
+    margin-left:0;
 }
        
 
