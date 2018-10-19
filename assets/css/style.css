@@ -82,8 +82,9 @@ div#Name {
     padding: 2%;
     font-family: 'sunflower', sans-serif;
     min-height: 560px;
+    max-height: 100%;
     position: relative;
-    margin-bottom: 6%;
+    margin-bottom: 10%;
 }
 img#me {
     width: 15%;
@@ -105,6 +106,7 @@ footer {
     left: 0;
     width: 100%;
     text-align: center;
+    margin-top: 20px;
 }
 hr {
     border-color: #666666;
@@ -167,6 +169,7 @@ div.row {
 @media(max-width:655px) {
     #mainContent {
         margin: 2%;
+        margin-bottom: 15%;
     }
     header {
     display: block;
