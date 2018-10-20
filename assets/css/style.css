@@ -182,5 +182,9 @@ div.row {
     text-align: center;
     position: relative;
     }
+    li {
+    margin: auto;
+    }
+ }
        
 
