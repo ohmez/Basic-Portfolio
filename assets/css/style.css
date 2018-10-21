@@ -17,7 +17,7 @@ header {
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin: auto;
     border-top-width: 0;
-    max-height: 64px;
+    max-height: 80px;
     font-size: 1em;
 }
 ul {
@@ -27,14 +27,12 @@ ul {
     display: inline-flex;
 }
 li {
-    float: right;
     border-right: 1px solid #bbb;
     display: block;
-    padding: 3%;
+    padding: .7vw;
 }
 li a {
     color: rgb(170, 168, 168);
-    text-align: center;
     padding: 1%;
     text-decoration: none;
     display: block;
@@ -51,10 +49,6 @@ a:visited:hover {
     /*right: 15%;*/
     right: 5%;
     top: 1.5%;
-}
-
-#menubar {
-    margin: 0;
 }
 h2 {
     color: #4aaaa5;
