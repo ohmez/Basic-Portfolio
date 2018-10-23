@@ -18,7 +18,7 @@ header {
     border: 2px solid #cccccc;
     display: flex;
     overflow: hidden;
-    width: 99%;  
+    width: 100vw;  
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin: auto;
     border-top-width: 0;
@@ -108,7 +108,6 @@ footer {
     left: 0;
     width: 100%;
     text-align: center;
-    margin-top: 20px;
 }
 hr {
     border-color: #666666;
@@ -146,7 +145,6 @@ img.port {
 div.gallery {
     display: inline;
     position: relative;
-    margin: auto;
     margin-left: 30px;
     
 }
@@ -155,23 +153,49 @@ div.banner {
     background: rgb(138,43,226);
     color: #ffffff;
     margin: auto;
-    width: 29.4vw;
+    width: 29vw;
     padding: 1vw .2vw;
-    bottom: 1%;
-    left: .1vw;
+    bottom: 3%;
+    left: .37vw;
+    text-align: center;
+}
+div.tBanner {
+    position: absolute;
+    background: rgb(138,43,226);
+    color: #ffffff;
+    margin: auto;
+    width: 29vw;
+    padding: .1vw .2vw;
+    bottom: 92%;
+    left: .37vw;
     text-align: center;
 }
 div.row {
     display: flex;
     flex-wrap: wrap;
-
+    margin-left: 8vw;
 }
-
 /* start scaling code */
 @media(max-width:655px) {
     #mainContent {
-        margin: 1%;
+        margin: 8%;
         margin-bottom: 15%;
+    }
+    div.gallery {
+        margin: 0;
+    }
+    div.banner {
+        width: 69vw;
+        left: .30vw;
+    }
+    div.row{
+        margin-left: 2vw;
+    }
+    img.port {
+        width: 70vw;
+    }
+    img#me {
+        width: 28vw;
     }
     header {
     display: block;
@@ -188,5 +212,5 @@ div.row {
     margin: auto;
     padding-left: 3px;
     }
- }
+}
        
