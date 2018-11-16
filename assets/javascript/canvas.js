@@ -9,8 +9,8 @@ window.onresize = function () {
      circleArr = [];
 for (var i = 0; i <innerHeight/10; i++) {    
     var radius = getRandoNum(innerWidth*.012,innerWidth*.015);
-    var x = getRandoNum((radius*2)+10, innerWidth-((radius*2)+10));// starting x position.
-    var y = getRandoNum((radius*2)+10, (innerHeight-130)-((radius*2)+10));
+    var x = getRandoNum((radius*2)+10, innerWidth-((radius*2)+50));// starting x position.
+    var y = getRandoNum((radius*2)+10, (innerHeight-130)-((radius*2)+50));
     var xVelocity = (Math.random() - 0.5) *3; // moving at 3 pixels * random -0.5 which makes a negative or positive
     var yVelocity = (Math.random() - 0.5) *3; 
     circleArr.push(new Circle(x,y,xVelocity,yVelocity,radius));
@@ -80,8 +80,8 @@ function getRandoNum (min, max) {
 var circleArr = []; // global array to add new flowers too. 
 for (var i = 0; i <innerHeight/10; i++) {    
     var radius = getRandoNum(innerWidth*.012,innerWidth*.015);
-    var x = getRandoNum((radius*2)+10, innerWidth-((radius*2)+10));// starting x position.
-    var y = getRandoNum((radius*2)+10, (innerHeight-130)-((radius*2)+10));
+    var x = getRandoNum((radius*2)+10, innerWidth-((radius*2)+20));// starting x position.
+    var y = getRandoNum((radius*2)+10, (innerHeight-130)-((radius*2)+20));
     var xVelocity = (Math.random() - 0.5) *3; // moving at 3 pixels * random 
     var yVelocity = (Math.random() - 0.5) *3; 
         circleArr.push(new Circle(x,y,xVelocity,yVelocity,radius));
